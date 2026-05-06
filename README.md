@@ -1,6 +1,7 @@
 # 🎙️ AI Voice Assistant
 
-A real-time AI voice assistant built using Python and Streamlit. The application supports both voice and text interaction powered by Large Language Models (LLMs).
+A real-time AI voice and text assistant built using Python and Streamlit.  
+The application integrates Large Language Models (LLMs) through the Groq API to provide conversational AI capabilities with both voice and text interaction.
 
 ---
 
@@ -8,9 +9,11 @@ A real-time AI voice assistant built using Python and Streamlit. The application
 
 - Voice-to-text interaction
 - Text-to-speech responses
-- LLM-powered conversational responses
-- Streamlit-based interactive UI
-- Session-based chat history
+- LLM-powered conversational AI
+- Real-time text chat interface
+- Session-based conversation history
+- Streamlit interactive UI
+- Cloud deployment support with local voice fallback handling
 
 ---
 
@@ -18,9 +21,9 @@ A real-time AI voice assistant built using Python and Streamlit. The application
 
 - Python
 - Streamlit
+- Groq API
 - SpeechRecognition
 - pyttsx3
-- Groq API
 - python-dotenv
 
 ---
@@ -60,7 +63,9 @@ streamlit run app.py
 
 - Microphone access is required for full voice interaction
 - Voice input/output functionality works best in local environments due to cloud audio hardware limitations
-- Cloud deployment supports text interaction with LLM responses
+- Cloud deployment supports text-based interaction with LLM responses
+- API keys should never be committed to GitHub repositories
+
 ---
 
 ## 📷 Demo
