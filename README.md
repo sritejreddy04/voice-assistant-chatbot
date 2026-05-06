@@ -59,7 +59,8 @@ streamlit run app.py
 ## 📌 Notes
 
 - Microphone access is required for voice interaction
-- Voice output using `pyttsx3` may not work in cloud deployments due to server audio limitations
+- Voice input/output functionality works best in local environments due to cloud audio hardware limitations
+- Ensure audio drivers are properly installed for local execution
 
 ---
 
