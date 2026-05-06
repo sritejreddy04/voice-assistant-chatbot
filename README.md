@@ -58,10 +58,9 @@ streamlit run app.py
 
 ## 📌 Notes
 
-- Microphone access is required for voice interaction
+- Microphone access is required for full voice interaction
 - Voice input/output functionality works best in local environments due to cloud audio hardware limitations
-- Ensure audio drivers are properly installed for local execution
-
+- Cloud deployment supports text interaction with LLM responses
 ---
 
 ## 📷 Demo
