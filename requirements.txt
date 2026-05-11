@@ -1,6 +1,4 @@
 groq
-SpeechRecognition  
-# pyaudio  -> Required for full local voice input
-# pyttsx3  -> Required for local text-to-speech
-python-dotenv 
+SpeechRecognition
+python-dotenv
 streamlit

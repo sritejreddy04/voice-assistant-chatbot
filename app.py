@@ -8,7 +8,6 @@ st.set_page_config(
 
 # Libraries
 import os
-import pyttsx3
 import speech_recognition as sr
 from groq import Groq
 from dotenv import load_dotenv
@@ -59,7 +58,12 @@ recognizer = sr.Recognizer()
 # Initialize Text-to-Speech engine
 def get_tts_engine():
 
+    if IS_CLOUD:
+        return None
+
     try:
+
+        import pyttsx3
 
         engine = pyttsx3.init()
 
